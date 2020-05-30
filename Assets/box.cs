@@ -10,6 +10,6 @@ public class box : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.AddForce(0,20,2000 * Time.deltaTime);
+        rb.AddForce(0,2,2000 * Time.deltaTime);
     }
 }
